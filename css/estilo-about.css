@@ -1,78 +1,84 @@
-body{
-    background-color:azure;
+
+body {
+    background-color: azure;
     padding: 0px;
     margin: 0px;
-
-
 }
 
-.container{
+.container {
     display: flex;
     justify-content: space-between;
-    background-color:  #3e7f8d;    
-
+    background-color: blue;
+    padding: 20px;
 }
 
-
-.logo{
+.logo {
     display: flex;
     justify-content: space-between;
 }
 
-
-.menu{
+.menu {
     display: flex;
     margin-top: 25px;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 30px;
-    font-family: Curely, sans-serif;
-    font-size: 30px;
-    
-    
+    font-family: 'Curely', sans-serif;
+    font-size: 20px; /* Alterei de 30px para 20px */
 }
 
-.menu a{
+.menu a {
     margin-top: 10px;
     border-radius: 20px;
-    padding: 10px 15px 15px 15px;
+    padding: 5px 10px; /* Ajustei os valores de padding */
     color: whitesmoke;
     text-decoration: none;
 }
 
-.menu a:hover{
+.menu a:hover {
     background-color: #f5dbd7;
     color: #1e7387;
 }
 
-.social{
+.social {
     display: flex;
     justify-content: space-between;
-    
-    width: 50px;
+    width: 100px; /* Ajustei a largura */
     height: 50px;
 }
-.fb:hover{
+
+.fb:hover,
+.ins:hover,
+.github:hover { /* Corrigi a classe .githud para .github */
     opacity: 0.7;
 }
-.ins:hover{
-    opacity: 0.7;
+
+h1 {
+    color: #3e7f8d;
 }
-.githud:hover{
-    opacity: 0.7;
-    width: 24px;
-    height: 50px;
-}
-h1{
-    color:#3e7f8d;
-}
-text{
-    color:black;
-    font-size: 22px;
-    padding: 10px 10px;
-    position: absolute;
-    bottom: 8px;
+
+.text {
+    color:whitesmoke;
+    font-size: 18px; /* Alterei de 22px para 18px */
+    padding: 10px; /* Ajustei os valores de padding */
     font-family: Arial, Helvetica, sans-serif;
-    
+    position: relative; /* Alterei de absolute para relative */
+    bottom: 8px;
+}
+
+.rodape {
+    font-size: 18px; /* Alterei de 22px para 18px */
+    color: beige;
+    display: flex;
+    justify-content: left;
+    align-items: center; /* Adicionei align-items */
+    height: 200px;
+    width: auto;
+    background-color:whitesmoke;
+}
+
+.rodape-container {
+    margin-left: 20%; /* Alterei de margin para margin-left */
+    font-size: medium;
 }
