@@ -66,9 +66,19 @@ h1 {
     position: relative; /* Alterei de absolute para relative */
     bottom: 8px;
 }
+.map h1{
+  color: black;
+  display: flex;
+  align-content:center;
+  font-family: Curely, sans-serif;
+
+}
+.li{
+  justify-content: center;
+}
 
 .rodape {
-    font-size: 18px; /* Alterei de 22px para 18px */
+    font-size: 22px; /* Alterei de 22px para 18px */
     color: beige;
     display: flex;
     justify-content: left;
@@ -79,6 +89,6 @@ h1 {
 }
 
 .rodape-container {
-    margin-left: 20%; /* Alterei de margin para margin-left */
+    margin-left: 45%; 
     font-size: medium;
 }

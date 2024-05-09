@@ -1,12 +1,3 @@
-.fundo{
-    background-image: url(../img/gashadokuro2.jpg);
-    background-repeat: no-repeat;
-    background-size:100%;
-    right: 3%;
-    text-align: center;
-    top: 0;
-    background-size: cover;
-}
 body{
     background-color:azure;
     padding: 0px;
@@ -14,11 +5,27 @@ body{
 
 
 }
+header {
+    background-color: #333;
+        color: #fff;
+    
+        padding: 20px;
+    
+        text-align: center;
+}
 
 .container{
+    width: 80%;
+    
+    margin: 20px auto;
     display: flex;
     justify-content: space-between;
-    background-color:blue; 
+    background-color:blue;
+    padding: 20px;
+    
+    border-radius: 5px;
+    
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 
 }
 
@@ -27,6 +34,49 @@ body{
     display: flex;
     justify-content: space-between;
 }
+h2 {
+   
+    margin-top: 0;
+
+}
+
+p {
+    
+    line-height: 1.6;
+
+}
+.character-type {
+    
+    font-weight: bold;
+    color: #007bff;
+
+}
+.advantages {
+    
+    color: #28a745;
+
+}
+.disadvantages {
+    
+    color: #dc3545;
+
+}
+footer {
+    background-color: #333;
+    
+        color: #fff;
+    
+        text-align: center;
+    
+        padding: 10px 0;
+    
+        position: fixed;
+    
+        bottom: 0;
+        width: 100%;
+
+       }
+
 
 
 .menu{
@@ -46,7 +96,7 @@ body{
     margin-top: 30px;
     border-radius: 20px;
     padding: 10px 15px 15px 15px;
-    color: whitesmoke;
+    color: black;
     text-decoration: none;
 }
 
@@ -60,6 +110,42 @@ body{
     justify-content: space-between;
     height: 50px;
 }
+
+.rodape-container{
+    float: left;
+    margin: left 20%;
+    font-size: medium;
+    align-items: center;
+}
+
+.map h1{
+    color: beige;
+    display: flex;
+    align-content:center;
+    font-family: Curely, sans-serif;
+
+}
+
+
+
+.rodape{
+    font-size: 22px;
+    color: beige;
+    display: flex;
+    justify-content: left;
+    height: 200px;
+}
+.rodape text{
+    margin-top: 250px;
+}
+
+.rodape a{
+    align-content: center;
+    font-size: 22px;
+    color: #f0d6ca;
+    text-decoration: none
+}
+
 .fb:hover{
     opacity: 0.7;
 }
