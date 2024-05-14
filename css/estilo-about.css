@@ -67,28 +67,29 @@ h1 {
     bottom: 8px;
 }
 .map h1{
-  color: black;
-  display: flex;
-  align-content:center;
-  font-family: Curely, sans-serif;
-
-}
-.li{
-  justify-content: center;
-}
-
-.rodape {
-    font-size: 22px; /* Alterei de 22px para 18px */
     color: beige;
-    display: flex;
-    justify-content: left;
-    align-items: center; /* Adicionei align-items */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.rodape{
+    color: beige;
+    text-align: center;
+    background-color: black;
     height: 200px;
-    width: auto;
-    background-color:whitesmoke;
+}
+.rodape a{
+    font-size: 22px;
+    color: #f0d6ca;
+    text-decoration: none
 }
 
-.rodape-container {
-    margin-left: 45%; 
-    font-size: medium;
+.fb:hover{
+    opacity: 0.7;
 }
+.ins:hover{
+    opacity: 0.7;
+}
+.githud:hover{
+    opacity: 0.7;
+}
+
+
