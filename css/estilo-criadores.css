@@ -12,6 +12,27 @@ body, h1, h2, p, img {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+    align-items: flex-end
+}
+
+.menu a{
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 10px 15px 15px 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    background-color:rgb(0, 115, 255);
+    color: #88bdcb;
+}
 
 h1 {
     text-align: center;

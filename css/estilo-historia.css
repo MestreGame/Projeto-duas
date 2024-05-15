@@ -7,8 +7,8 @@
 
 /* Estilos Gerais */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
 }
 .social{
     display: flex;

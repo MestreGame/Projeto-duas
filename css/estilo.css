@@ -16,15 +16,12 @@ header {
 
 .container{
     width: 80%;
-    
     margin: 20px auto;
     display: flex;
     justify-content: space-between;
     background-color:blue;
     padding: 20px;
-    
     border-radius: 5px;
-    
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 
 }
@@ -108,11 +105,25 @@ footer {
     height: 50px;
 }
 
+
 .rodape-container{
     float: left;
     margin: left 20%;
     font-size: medium;
     align-items: center;
+}
+.rodape{
+    
+    color: beige;
+    display: block
+   
+}
+.rodape-container{
+    font-size: medium;
+}
+.map h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
 }
 
 .map h1{
