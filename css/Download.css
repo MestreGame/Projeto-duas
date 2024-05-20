@@ -1,0 +1,98 @@
+.fundo{
+    background-image: url(img/smoke2.png);
+        /* background-repeat: no-repeat; */
+      background-size:100%;
+      right: 9%;
+      text-align: center;
+      top: 4%;
+      /* background-size: cover* */
+      
+  
+      }
+  
+  body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8a8989;
+  }
+  
+  header {
+    background-color: #7f7d7d;
+    color: #7a7979;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .apresentacao {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .apresentacao img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .jogos, .noticias {
+    margin-bottom: 40px;
+    align-items:center;
+  }
+  
+  .jogo, .noticia {
+    align-content: space-between;
+    margin-bottom: 20px;
+    border-radius: 8px;
+   
+  }
+  
+  .jogo img, .noticia img {
+    max-width: 100%;
+    align-content: space-between;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer nav ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+  }
+  
+  footer nav ul li {
+    margin: 0 10px;
+  }
+  
+  footer nav ul li a {
+    color: #fff;
+    text-decoration: none;}

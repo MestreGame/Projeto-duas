@@ -1,26 +1,171 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- LINK DO CSS -->
-<link rel="stylesheet" href="css/estilo.css">
-<!---- IMPORTANDO A FONTE -->
-<link href="https://fonts.cdnfonts.com/css/curely" rel="stylesheet">
-   
-<title>GAMEBR</title>
-</head>
-<body class="fundo" style="background-image: url(../game)";>
-<div class="container">
-<div class="logo"><a href="indem.html"><img src="img/OIP.jpg" width="100px" height="100px"></a></div>
-<div class="menu">
-<a href="">Download</a>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site 3</title>
+    <style>
+        .fundo {
+            background-image: url(img/smoke2.png);
+            background-size: 100%;
+            text-align: center;
+            background-color: #8a8989;
+        }
 
-</div>
-   
-<div class="social">
-<a href="https://facebook.com" class="fb"><img src="icons/icons8-facebook-24.png"></a>
-<a href="https://instagram.com" class="ins"><img src="icons/icons8-instagram-24.png"></a>
-<a href="https://github.com/"class="github"> <img src="img/github - Copia.png" height="24px" width="24px"></a>
- 
-</div>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #7f7d7d;
+            color: #7a7979;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .apresentacao {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .apresentacao img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .jogos {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .jogo {
+            flex: 1;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .jogo img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            max-width: 474px;
+            margin: auto;
+            display: block;
+        }
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer nav ul {
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            list-style: none;
+        }
+
+        footer nav ul li {
+            margin: 0 10px;
+        }
+
+        footer nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body class="fundo">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="indem.html">Pagina Início</a></li>
+                <li><a href="personagem.html">Personagem</a></li>
+                <li><a href="about.html">História</a></li>
+                <li><a href="criadores.html">criadores</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="apresentacao">
+            <h1>A Lenda do Gigante Morto</h1>
+            <p>Explore a vasta e rica história do universo de A Lenda do Gigante Morto</p>
+        </section>
+
+        <section class="jogos">
+            <div class="jogo">
+                <img src="img/guerreiro.jpg" alt="Guerreiro">
+                <h3>Guerreiro</h3>
+                <p>O guerreiro é uma figura imponente, forjado nas batalhas mais intensas. Com uma força inigualável e habilidades de combate excepcionais, ele é um mestre em todas as formas de luta. Sua armadura, pesada e resistente, protege-o contra os ataques mais ferozes, enquanto sua espada forjada pelos melhores ferreiros, corta seus inimigos com precisão mortal.</p>
+            </div>
+            <div class="jogo">
+                <img src="img/arqueiro.jpg" alt="Arqueiro">
+                <h3>Arqueiro</h3>
+                <p>O arqueiro é a personificação da precisão e da agilidade. Com olhos de águia e reflexos rápidos, ele é capaz de atingir alvos a grandes distâncias com uma precisão letal. Equipado com um arco confeccionado com as melhores madeiras e flechas perfeitamente balanceadas, o arqueiro é mortal tanto em emboscadas silenciosas quanto em combates abertos.</p>
+            </div>
+            <div class="jogo">
+                <img src="img/OIP (1).jpg" alt="Mago">
+                <h3>Mago</h3>
+                <p>O mago é um ser enigmático, detentor de conhecimentos antigos e poderosas magias. Com um simples gesto ou palavra, ele pode manipular os elementos, invocar criaturas de outros planos e lançar feitiços devastadores. Sua sabedoria é vasta, acumulada através de anos de estudo em tomos antigos e práticas místicas.</p>
+            </div>
+        </section>
+
+        <section class="noticias">
+            <h2>Download</h2>
+            <article>
+                <h3>Nova Atualização Disponível</h3>
+                <p>Confira as novidades da última atualização de Assassin's Creed.</p>
+                <a href="">Link do Download do jogo</a>
+            </article>
+            <article>
+                <h3>Evento Especial</h3>
+                <p>Participe do evento especial e ganhe recompensas exclusivas.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Games. Todos os direitos reservados.</p>
+        <nav>
+            <ul>
+                <li><a href="">Privacidade</a></li>
+                <li><a href="">Termos de Uso</a></li>
+                <li><a href="">Suporte</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
+
