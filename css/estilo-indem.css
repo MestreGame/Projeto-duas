@@ -1,3 +1,9 @@
+.fundo{
+    background-image: url(img/smoke2.png);
+    background-size: 100%;
+    text-align: center;
+    background-color: #e1d0d0;
+}
 body{
     background-color:azure;
     padding: 0px;

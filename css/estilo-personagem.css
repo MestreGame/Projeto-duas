@@ -1,0 +1,78 @@
+.fundo{
+   
+    background-size: 100%;
+            text-align: center;
+            background-color: #e1d0d0;
+  }
+  body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.logo{
+    align-items: center;
+}
+.container {
+    width: 80%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h2 {
+    margin-top: 0;
+    color: #007bff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p {
+    line-height: 1.6;
+}
+.character-type {
+    font-weight: bold;
+    color: #007bff;
+}
+.advantages {
+    color: #28a745;
+}
+.disadvantages {
+    color: #dc3545;
+}
+.rodape-container{
+   text-align: center;
+    margin: auto;
+    font-size: medium;
+}
+.map h1{
+    color: rgb(56, 56, 8);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.rodape{
+    font-size: 22px;
+    color: beige;
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    height: 200px;
+}
+.rodape a{
+    font-size: 22px;
+    color: #f0d6ca;
+    text-decoration: none
+}
+
+footer {
+    background-color: #fff7f7;
+    padding: 10px 0;
+    position: static;
+}
+.Descrição{
+  background-color: aqua;
+}
